@@ -3,13 +3,6 @@ local ffiUtil = require("ffi/util")
 local lfs = require("libs/libkoreader-lfs")
 local _ = require("gettext")
 
---[[
-    SMART SERIES SORT (v2)
-    
-    Fixes: Now ignores KOReader's internal ".sdr" metadata folders when 
-    checking if a directory has subfolders.
---]]
-
 -- 1. Define Status Priority
 local status_priority = {
     reading = 1,
