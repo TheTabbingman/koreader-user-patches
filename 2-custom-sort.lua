@@ -94,7 +94,7 @@ end
 
 -- 3. Register the Sort Method
 BookList.collates.smart_series_sort = {
-    text = _("Smart Series & Status"),
+    text = _("TheTabbingMan's Smart Series Sort"),
     menu_order = 100,
     can_collate_mixed = true,
     
